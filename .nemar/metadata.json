@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on003352",
-  "source": "openneuro",
-  "source_id": "ds003352",
+  "pipeline_stage": "enriched",
   "title": " ",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Katherine Hermann": {},
     "Isabelle Rosenthal": {},
@@ -11,21 +11,77 @@
     "Dimitrios Pantazis": {},
     "Bevil R. Conway": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003352.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0105-7",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003352",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003352",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2.2",
-  "recording_modality": [
+  "modalities": [
     "meg"
   ],
-  "datatypes": [
-    "meg"
-  ]
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fif",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset contains intracranial electrophysiological recordings (iEEG) acquired during visual stimulus presentation. Stimuli consisted of eight spiral grating patterns (10 degrees visual angle) in varying colors and luminance levels (light and dark variants of pink, blue, green, and orange), as well as color word stimuli ('blue' and 'green' displayed in white on gray background). Each stimulus was presented for 116 ms. The study investigates neural responses to visual stimuli using intracranial electrophysiology.",
+  "methods_description": "Visual stimuli consisting of eight square wave spiral gratings (10 degrees visual angle) and two color words were presented for 116 ms each. Stimuli included light and dark variants of pink, blue, green, and orange spirals, as well as the words 'blue' and 'green' displayed in white on a gray background. Intracranial electrophysiological (iEEG) recordings were acquired during stimulus presentation using implanted electrodes.",
+  "keywords": [
+    {
+      "term": "intracranial electrophysiology"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "spiral gratings"
+    },
+    {
+      "term": "color processing"
+    },
+    {
+      "term": "intracranial potentials"
+    },
+    {
+      "term": "color words"
+    },
+    {
+      "term": "visual stimuli"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "df9d9177549f41a5fb9446c34dd5287c02918e671b280277b164a45dc4809672"
 }
