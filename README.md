@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003352-blue)](https://doi.org/10.82901/nemar.on003352)
+
 Stimuli include eight different square wave spiral gratings subtending 10 degrees of visual angle as well as the color words "blue" and "green." The color words appeared as white on a gray background. Each stimulus appeared on the screen for 116 ms. The triggers or event ID's of each stimulus are as follows:
 
 1 - Light Pink Spiral
