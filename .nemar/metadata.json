@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": " ",
-  "description": "This intracranial electrophysiology dataset contains recordings from human subjects viewing visual stimuli including spiral gratings of varying colors and luminance levels, as well as color words. The dataset comprises eight different square wave spiral gratings and two color word stimuli, each presented for 116 ms, with corresponding event markers for stimulus identification. This resource supports investigation of visual processing and color representation in human cortex.",
-  "methods_description": "Visual stimuli consisting of eight square wave spiral gratings (10 degrees visual angle) and two color words were presented for 116 ms each. Stimuli included light and dark variants of pink, blue, green, and orange spirals, as well as the words 'blue' and 'green' displayed in white on a gray background. Intracranial electrophysiological (iEEG) recordings were acquired during stimulus presentation using implanted electrodes.",
+  "description": "An MEG dataset recorded while participants viewed colored square wave spiral gratings and the color words \"blue\" and \"green\". Eight spiral gratings (pink, blue, green, and orange, each in light and dark variants) subtended 10 degrees of visual angle, and the words appeared in white on a gray background. Each stimulus was presented for 116 ms, and event triggers identify the stimulus category. The data are suited to studying neural representations of color and color words.",
+  "methods_description": "MEG data were recorded while participants viewed eight square wave spiral gratings subtending 10 degrees of visual angle and the color words \"blue\" and \"green\" in white on a gray background. Each stimulus was displayed for 116 ms, with event IDs 1-10 marking the stimulus identity (1-8 spiral gratings: light/dark pink, blue, green, orange; 9 \"green\"; 10 \"blue\").",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,46 +15,22 @@
   },
   "keywords": [
     {
-      "term": "intracranial electrophysiology"
+      "term": "MEG"
     },
     {
-      "term": "iEEG"
+      "term": "magnetoencephalography"
     },
     {
-      "term": "electrocorticography"
-    },
-    {
-      "term": "ECoG"
+      "term": "color perception"
     },
     {
       "term": "visual stimuli"
     },
     {
-      "term": "color processing"
-    },
-    {
       "term": "spiral gratings"
     },
     {
-      "term": "human cortex"
-    },
-    {
       "term": "color words"
-    },
-    {
-      "term": "V4"
-    },
-    {
-      "term": "color area"
-    },
-    {
-      "term": "visual processing"
-    },
-    {
-      "term": "color representation"
-    },
-    {
-      "term": "stimulus presentation"
     }
   ],
   "related_identifiers": [
@@ -74,14 +50,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003352",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003352.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003352",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "MEG Dataset",
@@ -89,7 +65,7 @@
     "meg"
   ],
   "sizes": [
-    "230.1 GB (139 files)"
+    "214 GB (139 files)"
   ],
   "formats": [
     ".fif",
